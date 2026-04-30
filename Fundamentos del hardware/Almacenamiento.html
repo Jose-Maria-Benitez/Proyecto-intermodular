@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de almacenamiento</title>
+</head>
+<body>
+    <h1>Sistema de almacenamiento</h1>
+    <h2>Tipos de discos</h2>
+    <p>Como se viene diciendo, en este caso lo ideal es evitar completamente los discos HDD, pues los movimientos causados por el oleaje y las vibraciones de la maquinaria pueden causar daños en las partes móviles y mecánicas de este tipo de discos. Pueden llegar a usarse como almacenamiento secundario o como apoyo, pero no es muy recomendable guardar nada muy importante ahí sin tener un buen sistema de copias de seguridad a mano.</p>
+    <p>Por consiguiente, en este proyecto vamos a depender completamente de discos SSD sacando provecho al conector NVMe para acceder a la información de la manera más rápida posible y evitando cableado innecesario.</p>
+    <p>Por otro lado, por temas de seguridad, sería recomendable contar con un RAID 1 o preferiblemente 5 para tener copias de seguridad y tolerancia a fallos. Para la zona de seguridad, sin embargo, vamos a necesitar algo más fiable, por lo que como mínimo implementaríamos un RAID 6.</p>
+    <h2>Capacidad y uso esperado</h2>
+    <p>Para la zona de recepción, si tenemos en cuenta que los datos importantes además irán guardados en servidores en la nube privada de la compañía, en realidad no necesitaríamos demasiado espacio. Se estima que aproximadamente serán necesarios 300 GB para todo el software y algunos datos. No obstante, se ha preferido usar un disco de almacenamiento que llega al Tera para tener mucho más márgen de comodidad.</p>
+    <p>Por otro lado, para la zona de seguridad, necesitaremos un sistema de almacenaje de mayor calibre, con equipos de mínimo un Tera por puesto, y respaldado por un NAS y un servidor departamental o incluso un mainframe de aproximadamente unos 50 Teras como mínimo de capacidad para almacenar todos los datos y grabaciones.</p>
+    <p>Dicho servidor de almacenamiento deberá estar muy bien ventilado y cuidado de la humedad del ambiente. Por eso mismo, la información también se guardará en la nube privada de la empresa, con el riesgo de perderse algo de información en zonas en las que la cobertura de Internet sea escasa. Así pues, se deberá actualizar la información en la nube siempre que sea posible para que se pierda el menor número de datos posibles en caso de que coincida una avería con una zona sin conexión.</p>
+</body>
+</html>
