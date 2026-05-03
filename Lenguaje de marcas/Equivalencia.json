@@ -1,0 +1,143 @@
+{
+  "cruceros": {
+    "crucero": {
+      "id": 1,
+      "capacidad": 500,
+      "zonas": [
+        "Cubierta",
+        "Piscina",
+        "Restaurante"
+      ],
+      "itinerario": "Barcelona-Valencia-Palma",
+
+      "puertos": [
+        {
+          "id": 1,
+          "ciudad": "Barcelona",
+          "llegada": "2026-06-01 08:00:00",
+          "salida": "2026-06-01 18:00:00"
+        },
+        {
+          "id": 2,
+          "ciudad": "Málaga",
+          "llegada": "2026-07-01 09:00:00",
+          "salida": "2026-07-01 20:00:00"
+        },
+        {
+          "id": 3,
+          "ciudad": "Atenas",
+          "llegada": "2026-08-01 07:00:00",
+          "salida": "2026-08-01 17:00:00"
+        }
+      ],
+
+      "turistas": [
+        {
+          "id": 1,
+          "nombre": "Carlos",
+          "apellidos": "Sánchez",
+          "categoria": "VIP",
+          "origen": "Madrid",
+          "destino": "Palma"
+        },
+        {
+          "id": 2,
+          "nombre": "Lucía",
+          "apellidos": "Fernández",
+          "categoria": "Normal",
+          "origen": "Sevilla",
+          "destino": "Génova"
+        },
+        {
+          "id": 3,
+          "nombre": "Pedro",
+          "apellidos": "López",
+          "categoria": "VIP",
+          "origen": "Valencia",
+          "destino": "Nápoles"
+        }
+      ],
+
+      "tripulacion": [
+        {
+          "id": 1,
+          "nombre": "Juan",
+          "apellidos": "Pérez López",
+          "departamento": "Seguridad"
+        },
+        {
+          "id": 2,
+          "nombre": "Ana",
+          "apellidos": "García Ruiz",
+          "departamento": "Cocina"
+        },
+        {
+          "id": 3,
+          "nombre": "Luis",
+          "apellidos": "Martín Díaz",
+          "departamento": "Recepción"
+        }
+      ],
+
+      "habitaciones": [
+        {
+          "id": 1,
+          "planta": 1,
+          "numero": 101,
+          "capacidad": 2,
+          "categoria": "Suite"
+        },
+        {
+          "id": 2,
+          "planta": 2,
+          "numero": 202,
+          "capacidad": 2,
+          "categoria": "Doble"
+        },
+        {
+          "id": 3,
+          "planta": 3,
+          "numero": 303,
+          "capacidad": 1,
+          "categoria": "Individual"
+        }
+      ],
+
+      "eventos": [
+        {
+          "id": 1,
+          "tipo": "Fiesta",
+          "lugar": "Cubierta",
+          "fecha": "2026-06-02",
+          "hora": "22:00:00"
+        },
+        {
+          "id": 2,
+          "tipo": "Cena",
+          "lugar": "Restaurante",
+          "fecha": "2026-07-02",
+          "hora": "20:00:00"
+        },
+        {
+          "id": 3,
+          "tipo": "Concierto",
+          "lugar": "Teatro",
+          "fecha": "2026-08-02",
+          "hora": "21:00:00"
+        }
+      ],
+
+      "incidencias": [
+        { "id": 1, "servicio": "Avería" },
+        { "id": 2, "servicio": "Retraso" },
+        { "id": 3, "servicio": "Ruido" }
+      ],
+
+      "solicitudes": [
+        { "id": 1, "servicio": "Comida" },
+        { "id": 2, "servicio": "Limpieza" },
+        { "id": 3, "servicio": "Mantenimiento" }
+      ]
+    }
+  }
+}

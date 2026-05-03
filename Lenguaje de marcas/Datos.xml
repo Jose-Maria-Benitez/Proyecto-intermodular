@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cruceros SYSTEM "Validación.dtd">
+<?xml-stylesheet type="text/xsl" href="crucero.xsl"?>
+
+<cruceros>
+  <crucero>
+    <id>1</id>
+    <capacidad>500</capacidad>
+    <zonas>Cubierta, Piscina, Restaurante</zonas>
+    <itinerario>Barcelona-Valencia-Palma</itinerario>
+
+    <puertos>
+      <puerto>
+        <id>1</id>
+        <ciudad>Barcelona</ciudad>
+        <llegada>2026-06-01 08:00:00</llegada>
+        <salida>2026-06-01 18:00:00</salida>
+      </puerto>
+      <puerto>
+        <id>2</id>
+        <ciudad>Málaga</ciudad>
+        <llegada>2026-07-01 09:00:00</llegada>
+        <salida>2026-07-01 20:00:00</salida>
+      </puerto>
+      <puerto>
+        <id>3</id>
+        <ciudad>Atenas</ciudad>
+        <llegada>2026-08-01 07:00:00</llegada>
+        <salida>2026-08-01 17:00:00</salida>
+      </puerto>
+    </puertos>
+
+    <turistas>
+      <turista>
+        <id>1</id>
+        <nombre>Carlos</nombre>
+        <apellidos>Sánchez</apellidos>
+        <categoria>VIP</categoria>
+        <origen>Madrid</origen>
+        <destino>Palma</destino>
+      </turista>
+      <turista>
+        <id>2</id>
+        <nombre>Lucía</nombre>
+        <apellidos>Fernández</apellidos>
+        <categoria>Normal</categoria>
+        <origen>Sevilla</origen>
+        <destino>Génova</destino>
+      </turista>
+      <turista>
+        <id>3</id>
+        <nombre>Pedro</nombre>
+        <apellidos>López</apellidos>
+        <categoria>VIP</categoria>
+        <origen>Valencia</origen>
+        <destino>Nápoles</destino>
+      </turista>
+    </turistas>
+
+    <tripulacion>
+      <tripulante>
+        <id>1</id>
+        <nombre>Juan</nombre>
+        <apellidos>Pérez López</apellidos>
+        <departamento>Seguridad</departamento>
+      </tripulante>
+      <tripulante>
+        <id>2</id>
+        <nombre>Ana</nombre>
+        <apellidos>García Ruiz</apellidos>
+        <departamento>Cocina</departamento>
+      </tripulante>
+      <tripulante>
+        <id>3</id>
+        <nombre>Luis</nombre>
+        <apellidos>Martín Díaz</apellidos>
+        <departamento>Recepción</departamento>
+      </tripulante>
+    </tripulacion>
+
+    <habitaciones>
+      <habitacion>
+        <id>1</id>
+        <planta>1</planta>
+        <numero>101</numero>
+        <capacidad>2</capacidad>
+        <categoria>Suite</categoria>
+      </habitacion>
+      <habitacion>
+        <id>2</id>
+        <planta>2</planta>
+        <numero>202</numero>
+        <capacidad>2</capacidad>
+        <categoria>Doble</categoria>
+      </habitacion>
+      <habitacion>
+        <id>3</id>
+        <planta>3</planta>
+        <numero>303</numero>
+        <capacidad>1</capacidad>
+        <categoria>Individual</categoria>
+      </habitacion>
+    </habitaciones>
+
+    <eventos>
+      <evento>
+        <id>1</id>
+        <tipo>Fiesta</tipo>
+        <lugar>Cubierta</lugar>
+        <fecha>2026-06-02</fecha>
+        <hora>22:00:00</hora>
+      </evento>
+      <evento>
+        <id>2</id>
+        <tipo>Cena</tipo>
+        <lugar>Restaurante</lugar>
+        <fecha>2026-07-02</fecha>
+        <hora>20:00:00</hora>
+      </evento>
+      <evento>
+        <id>3</id>
+        <tipo>Concierto</tipo>
+        <lugar>Teatro</lugar>
+        <fecha>2026-08-02</fecha>
+        <hora>21:00:00</hora>
+      </evento>
+    </eventos>
+
+    <incidencias>
+      <incidencia><id>1</id><servicio>Avería</servicio></incidencia>
+      <incidencia><id>2</id><servicio>Retraso</servicio></incidencia>
+      <incidencia><id>3</id><servicio>Ruido</servicio></incidencia>
+    </incidencias>
+
+    <solicitudes>
+      <solicitud><id>1</id><servicio>Comida</servicio></solicitud>
+      <solicitud><id>2</id><servicio>Limpieza</servicio></solicitud>
+      <solicitud><id>3</id><servicio>Mantenimiento</servicio></solicitud>
+    </solicitudes>
+
+  </crucero>
+</cruceros>

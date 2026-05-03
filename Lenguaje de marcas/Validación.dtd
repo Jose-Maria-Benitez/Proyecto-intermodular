@@ -1,0 +1,44 @@
+<!ELEMENT cruceros (crucero+)>
+<!ELEMENT crucero (id, capacidad, zonas, itinerario, puertos, turistas, tripulacion, habitaciones, eventos, incidencias, solicitudes)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT zonas (#PCDATA)>
+<!ELEMENT itinerario (#PCDATA)>
+
+<!ELEMENT puertos (puerto+)>
+<!ELEMENT puerto (id, ciudad, llegada, salida)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT llegada (#PCDATA)>
+<!ELEMENT salida (#PCDATA)>
+
+<!ELEMENT turistas (turista+)>
+<!ELEMENT turista (id, nombre, apellidos, categoria, origen, destino)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+
+<!ELEMENT tripulacion (tripulante+)>
+<!ELEMENT tripulante (id, nombre, apellidos, departamento)>
+<!ELEMENT departamento (#PCDATA)>
+
+<!ELEMENT habitaciones (habitacion+)>
+<!ELEMENT habitacion (id, planta, numero, capacidad, categoria)>
+<!ELEMENT planta (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT eventos (evento+)>
+<!ELEMENT evento (id, tipo, lugar, fecha, hora)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+
+<!ELEMENT incidencias (incidencia+)>
+<!ELEMENT incidencia (id, servicio)>
+<!ELEMENT servicio (#PCDATA)>
+
+<!ELEMENT solicitudes (solicitud+)>
+<!ELEMENT solicitud (id, servicio)>
